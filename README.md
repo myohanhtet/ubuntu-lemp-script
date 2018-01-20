@@ -6,7 +6,7 @@
 	$ git clone https://github.com/myohanhtet/ubuntu-lemp-script.git
 	$ cd ubuntu-lemp-script
 	$ sudo chmod +x web-server.sh
-	$ web-server.sh
+	$ ./web-server.sh
 </pre>
 
 
