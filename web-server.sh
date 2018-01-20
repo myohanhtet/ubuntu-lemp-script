@@ -10,7 +10,7 @@ sudo apt-get update
 
 read -p "Are you sure(y/n)" YES
 
-if [$YES]; then
+if [$YES = 'y']; then
 
 	echo "Note: Script assumes you have a file named nginx-site in script directory to be copied to /etc/nginx/sites-available"
 	read -p "Install Nginx? (y/n)" NGINX
