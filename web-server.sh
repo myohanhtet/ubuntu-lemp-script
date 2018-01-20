@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 echo "Ubuntu 16.04 Web servar installation"
 echo "Nginx"
 echo "MariaDB"
