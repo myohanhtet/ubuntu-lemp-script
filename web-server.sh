@@ -38,7 +38,7 @@ if [$YES]; then
 		fi
 	fi
 	read -p "Install PHP7.2? (y/n)" PHP
-	if [ $PHP ]; then
+	if [ $PHP = 'y']; then
 		sudo apt install python-software-properties
 		sudo apt add-apt-repository ppa:ondrej/php
 		sudo apt update
@@ -52,7 +52,7 @@ if [$YES]; then
 		sudo service php7.2-fpm restart
 	fi
 	read -p "Install MariaDB? (y/n)" MARIADB 
-	if [ $MARIADB ]; then
+	if [ $MARIADB = 'y' ]; then
 		sudo apt install -y mariadb-server mariadb-client
 		sudo mysql_secure_installation
 		sudo mysql << EOF
