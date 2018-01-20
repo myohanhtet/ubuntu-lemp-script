@@ -15,7 +15,7 @@ if [$YES]; then
 	echo "Note: Script assumes you have a file named nginx-site in script directory to be copied to /etc/nginx/sites-available"
 	read -p "Install Nginx? (y/n)" NGINX
 
-	if[ $NGINX = 'y' ]; then
+	if[ $NGINX = 'y' = 'y']; then
 		sudo apt-get install -y nginx
 		sudo mv /etc/nginx/sites-available/default /etc/nginx/sites-available/default.bak
 		echo "Moveing default site file to /etc/nginx/sites-available/drfaul.bak"
