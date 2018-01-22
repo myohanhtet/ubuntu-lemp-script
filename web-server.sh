@@ -1,7 +1,7 @@
 #!/bin/bash 
 echo "Ubuntu Server 16.04 installation script for..."
 echo "- Nginx"
-echo "- Php7.0"
+echo "- Php7.2"
 echo "- MariaDB"
 echo "- Git, Curl & Composer"
 echo "- Node.JS, Gulp, Bower & Socket.io"
